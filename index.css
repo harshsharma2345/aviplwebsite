@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  margin: auto;
+  overflow-y: visible;
+  height: 105vh;
+
+}
+.sticky {
+    position: fixed;
+    top: 100;
+    width: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .container .btn1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: blue; */
+    /* color: white; */
+    font-size: 26px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ 
+.cooldiv{
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px 0px lightblue;
+    width: 90%;
+    
+    /* border: 5px black; */
+
+    margin: auto;
+    background-color: white;
+   
+  }
+  body h1{
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size:70px;
+
+}
+.parallax {
+  /* The image used */
+  background-image: url("./media/3.png");
+  opacity: 0.6;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
