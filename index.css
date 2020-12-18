@@ -35,7 +35,7 @@ body{
 .cooldiv{
     border-radius: 20px;
     box-shadow: 1px 1px 15px 0px lightblue;
-    width: 90%;
+    width: 100%;
     
     /* border: 5px black; */
 
@@ -61,4 +61,9 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
