@@ -1,0 +1,12 @@
+@media only screen and (max-width: 740px) {
+      .navbar{
+           
+      }
+      
+      .imgset{
+          content: url('./media/1mob.png');
+      }
+      .imgset1{
+          content: url('./media/2mob.png');
+      }
+}

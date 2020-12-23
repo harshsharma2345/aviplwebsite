@@ -20,23 +20,84 @@
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <link rel="stylesheet" href="./phone.css">
     <script src="./index.js"></script>
-
-
+    
 </head>
 
 <body style="font-family: 'Tenor Sans', sans-serif;" id="#home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 10px; box-shadow: 5px 5px 5px lightgray;"
-        id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 10px; box-shadow: 5px 5px 5px lightgray; font-family: 'Tenor Sans', sans-serif;">
+        <a class="navbar-brand" href="#" style="color:darkblue;font-size: 30px; text-shadow: 5px 5px 5px lightgrey;">AVIPL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourservices">Our Services</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#contact">Contact</a>
+              </li>
+          </ul>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-0 justify-center sm:justify-start">
+            <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none"
+                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                    </path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+            </a>
+        </span>
+          
+        </div>
+      </nav>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 10px; box-shadow: 5px 5px 5px lightgray;"
+        id="nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"
-                style="color:darkblue;font-size: 30px; text-shadow: 5px 5px 5px lightgrey;">AVIPL</a>
+                style="color:darkblue;font-size: 30px; text-shadow: 5px 5px 5px lightgrey;"><img src="./media/freeLogo." alt="">AVIPL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse  justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#home">HOME</a>
@@ -57,6 +118,7 @@
                 </ul>
 
             </div>
+             <div>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-0 justify-center sm:justify-start">
                 <a class="text-gray-500">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -89,61 +151,13 @@
                     </svg>
                 </a>
             </span>
-        </div>
+        </div> 
+    </div>
 
-    </nav>
-    <!-- <header class="text-gray-700 body-font" style="padding: 0px;">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl" style="text-shadow: 2px 2px 2px lightblue; color: darkblue; font-size: 40px;">AVIPL</span>
-          </a>
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900" style="text-decoration: none; cursor: pointer;">HOME</a>
-            <a class="mr-5 hover:text-gray-900" style="text-decoration: none; cursor: pointer;">OUR SERVICES</a>
-            <a class="mr-5 hover:text-gray-900" style="text-decoration: none; cursor: pointer;">ABOUT US</a>
-            <a class="mr-5 hover:text-gray-900" style="text-decoration: none; cursor: pointer;">CONTACT US</a>
-          </nav>
-          
-        </div>
-      </header> -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky text-lg text-white" id="navbar">
-        <a class="navbar-brand" href="#">AVIPL</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ourservices">Our Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About us</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Careers</a>
-
-                </li> -->
-
-
-    </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form> 
-        </div>
     </nav> -->
-    <!-- Button trigger modal -->
+    
+
+
 
 
     <!-- Modal -->
@@ -165,23 +179,20 @@
         </div>
     </div>
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide rellax" data-ride="carousel" data-rellax-speed="-5">
+    <div id="carouselExampleSlidesOnly" class="carousel slide rellax" data-ride="carousel" data-rellax-speed="-5" style="margin-top: 4px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="./media/1.png" alt="First slide">
+                <img class="d-block w-100 imgset" src="./media/1.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="./media/2.png" alt="Second slide">
+                <img class="d-block w-100 imgset1" src="./media/2.png" alt="Second slide">
             </div>
             <!-- <div class="carousel-item">
             <img class="d-block w-100" src="./media/" alt="Third slide">
           </div> -->
         </div>
     </div>
-    <!-- <div  class="rellax" data-rellax-speed="-5" style="background-image: url('./media/finalbg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;"> -->
+    
 
     </div>
     <br>
@@ -195,12 +206,12 @@
 
             <section class="text-gray-700 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" data-aos="fade-right" >
                         <img class="object-cover object-center rounded" alt="hero" src="./media/web.png">
                     </div>
-                    <div
+                    <div  data-aos="fade-down-left"
                         class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Web Development
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 ml12">Web Development
                         </h1>
                         <p class="mb-8 leading-relaxed text-left">Get Awesome Looking websites ready within days. We
                             have the best team.
@@ -212,78 +223,14 @@
                     </div>
                 </div>
             </section>
-            <!-- <h1 class="text-center " style="font-size:60px;color: darkblue;">Our Services</h1>
-            
-            <div class="container px-5 py-24 mx-auto">
-                <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-                    <div class="sm:w-1/2 mb-10 px-4" ">
-              <div class=" rounded-lg h-64 overflow-hidden">
-                        <img alt="content" class="object-cover object-center h-full w-full" src="./media/bg2.jpg">
-                    </div>
-                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-black" style="color: darkblue;">Web Development
-                    </h2>
-
-                    <p class="leading-relaxed text-base text-left text-black">Want your business to rule the Internet.
-                        Build your online existence with AVIPL. Give us a
-                        chance to build beautiful yet amazing websites for your Business.
-                    </p> -->
-
-            <!--                <a href="./webdev.html"> <button
-                    class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Explore
-                    Now</button></a> -->
-            <!-- </div>
-                <div class="sm:w-1/2 mb-10 px-4">
-                    <div class="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" class="object-cover object-center h-full w-full" src="./media/app.jpg">
-                    </div>
-                    <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-black" style="color: darkblue;">App Development</h2>
-                    <p class="leading-relaxed text-base text-left text-black">Here at AVIPL we provide all kind of App
-                        based solutions to our customers. Give us a chance and see your Business and Ideas Transform.
-                    </p>
-                                <button
-                    class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Explore
-                    Now</button> 
-                </div>
-            </div>
-    </div>-->
-            <!-- <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-            <div class="sm:w-1/2 mb-10 px-4" ">
-                <div class=" rounded-lg h-64 overflow-hidden">
-                <img alt="content" class="object-cover object-center h-full w-full" src="./media/dm.jpg">
-            </div>
-            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-black" style="color: darkblue;">Digital Marketing</h2>
-            <p class="leading-relaxed text-base text-left text-black"> Want more sales, or Want to make your brand or
-                product reach more customers. Signup for our Digital Marketing Plan. Its very much affordable to start
-                with.
-            </p>
-                         <button
-                    class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Explore
-                    Now</button>
-        </div>
-        <div class="sm:w-1/2 mb-10 px-4">
-            <div class="rounded-lg h-64 overflow-hidden">
-                <img alt="content" class="object-cover object-center h-full w-full" src="./media/design.jpg">
-            </div>
-            <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3 text-black" style="color: darkblue;">Design</h2>
-            <p class="leading-relaxed text-base text-left text-black">Want Cool logos, Posters, Cards, e-advertisements
-                for your business. Here at AVIPL, We have a team of talented Graphic designers to meet your needs. Just
-                Give us a chance.
-            </p>
-            <              <button
-                    class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Explore
-                    Now</button> 
-        </div>
-
-    </div>
-    </div> -->
+           
         </section>
         <hr>
-        <section class="text-gray-700 body-font">
-            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div
+        <section class="text-gray-700 body-font" style="background-image: url('./media/appbg.png'); color: white;">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" >
+                <div data-aos="fade-down-right"
                     class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">App Development
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">App Development
 
                     </h1>
                     <p class="mb-8 leading-relaxed text-left">Mobile app development is the act or process by which a
@@ -293,72 +240,23 @@
                         and grow your business. </p>
 
                 </div>
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero" src="./media/app.png">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="fade-left">
+                    <img class="object-cover object-center rounded" alt="hero" src="./media/app.png" >
                 </div>
             </div>
         </section>
-        <!-- <div class="container px-5 py-24 mx-auto flex flex-wrap">
-                <div class="flex w-full mb-20 flex-wrap">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4"
-                        style="color: darkblue;">'Cause your
-                        business need a Website.</h1>
-                    <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base"> Put your Mark on the Internet. Get
-                        your
-                        beautiful website built for your business. So that your brand can put solid Impact on Customers
-                        and
-                        you can Grow your business.</p>
-                </div>
-                <div class="flex flex-wrap md:-m-2 -m-1 ">
-                    <div class="flex flex-wrap w-1/2">
-                        <div class="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                src="./media/web7.jpg">
-
-                        </div>
-                        <div class="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                src="./media/web8.jpg">
-                        </div>
-                        <div class="md:p-2 p-1 w-full">
-                            <img alt="gallery" class="w-full h-full object-cover object-center block"
-                                src="./media/web3.jpg">
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap w-1/2">
-                        <div class="md:p-2 p-1 w-full">
-                            <img alt="gallery" class="w-full h-full object-cover object-center block"
-                                src="./media/web2.jpg">
-                        </div>
-                        <div class="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                src="./media/web5.jpg">
-                        </div>
-                        <div class="md:p-2 p-1 w-1/2">
-                            <img alt="gallery" class="w-full object-cover h-full object-center block"
-                                src="./media/web6.jpg">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <a href="#contact">
-                    <button
-                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact
-                        Now</button>
-                </a>
-            </div> <br> <br> -->
+        
 
         </section>
         <hr>
         <section class="text-gray-700 body-font">
             <section class="text-gray-700 body-font">
                 <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" data-aos="fade-right">
                         <img class="object-cover object-center rounded" alt="hero" src="./media/dm.png" width="900px"
                             height="900px">
                     </div>
-                    <div
+                    <div data-aos="fade-down-left"
                         class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Digital Marketing
                         </h1>
@@ -366,132 +264,60 @@
                             platforms to connect with your
                             audience to build your brand, increase sales, and drive website traffic. The major social
                             media platforms (at the moment) are Facebook, Instagram, Twitter, LinkedIn, Pinterest,
-                            YouTube, and Snapchat. If your want to Boost your business online. We have dedicated
-                            team to help advertise on social media. Generate leads and clicks. Reach target
-                            audience.
+                            YouTube, and Snapchat.
                         </p>
 
                     </div>
                 </div>
             </section>
-            <!-- <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div
-                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
-                        style="margin: auto;color: darkblue;">Apps
-                        for your Business.
-                        <br class="hidden lg:inline-block">
-                    </h1>
-                    <p class="mb-8 leading-relaxed">Take your business to next level with your High Quality
-                        cross-platform
-                        Apps. Give us your requirements and we will handover something powerful to you. </p> -->
-            <!-- <div style=" display: flex; width: 200px; height: 200px;">
-                    <img src="./media/apple.png">
-                    <img src="./media/android.png" alt="">
-                    
-                </div> -->
-
-            <!-- <div class="flex justify-center" style="margin: auto;">
-                        <a href="#contact">
-                            <button
-                                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact
-                                Now</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero" src="./media/android.jpg">
-                </div>
-            </div> -->
+           
         </section>
         <hr>
-        <section class="text-gray-700 body-font">
+        <section class="text-gray-700 body-font"style="background-image: url('./media/appbg.png'); color: white;" >
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div
+                <div data-aos="fade-down-right"
                     class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Graphic Design
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">Graphic Design
 
                     </h1>
                     <p class="mb-8 leading-relaxed text-left">Graphic design is the
                         process of visual communication through the use of typography, photography, iconography and
-                        illustration. Want Cool Logos, Posteres, Digital Advertisements. We have
+                        illustration. If you want Cool Logos, Posteres, Digital Advertisements. We have
                         a dedicated team of Graphic Designer to get your work done like charm. </p>
 
                 </div>
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" data-aos="fade-left">
                     <img class="object-cover object-center rounded" alt="hero" src="./media/code.svg" width="400px"
                         height="400px">
                 </div>
             </div>
-            <!-- <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img class="object-cover object-center rounded" alt="hero" src="./media/dg.jpg">
-                </div>
-                <div
-                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
-                        style="margin: auto; color: darkblue;">Go Digital! Grow your Business.
-                        <br class=" hidden lg:inline-block">
-                    </h1>
-                    <p class="mb-8 leading-relaxed">Build our own Brand Online. Advertise Online with us on Social Media
-                        like Facebook, Instagram and more. Don't wait give us a call.
-                        We will take your business to next level.</p>
-                    <div class="flex justify-center" style="margin: auto;">
-                        <a href="#contact">
-                            <button
-                                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact
-                                Now</button>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
+            
         </section>
         <hr>
         <section class="text-gray-700 body-font">
-            <!-- <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-                <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
-                    src="./media/photoshop.png">
-                <div class="text-center lg:w-2/3 w-full">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color: darkblue;">
-                        Graphic Designing for your
-                        Business</h1>
-                    <p class="mb-8 leading-relaxed">We have team of super talented graphic designers to design cool
-                        logos,
-                        posters, cards, arts and much more. Just give us a chance to serve you.</p>
-                    <div class="flex justify-center">
-                        <a href="#contact">
-                            <button
-                                class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact
-                                Now</button>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
+           
         </section>
         <section class="text-gray-700 body-font">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" style="font-size:60px; color:darkblue">Metrics</h1>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+                        style="font-size:60px; color:darkblue">Metrics</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
                 </div>
                 <div class="flex flex-wrap -m-4 text-center">
                     <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div class="border-2 border-gray-200 px-4 py-6 rounded-lg ">
-                            <svg style="color:blue; display:flex; margin:auto;" xmlns="http://www.w3.org/2000/svg"
-                                width="66" height="66" fill="currentColor" class="bi bi-terminal" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z" />
-                                <path fill-rule="evenodd"
-                                    d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.146 4.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 1 1-.708-.708L4.793 6.5 3.146 4.854a.5.5 0 0 1 0-.708z" />
-                            </svg>
+                            <i class="fa fa-code fa-4x" aria-hidden="true" style="color: darkblue;"></i>
                             <br>
-                            <h2 class="title-font font-medium text-3xl text-gray-900">10+</h2>
+
+                            <br>
+                            <h2 class="title-font font-medium text-3xl text-gray-900" id="stats">10+</h2>
                             <p class="leading-relaxed">Projects Completed</p>
                         </div>
                     </div>
                     <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <i class="fas fa-users fa-4x" style="color: blue;"></i>
+                            <i class="fas fa-users fa-4x" style="color: darkblue;"></i>
                             <br><br>
                             <h2 class="title-font font-medium text-3xl text-gray-900">5+</h2>
                             <p class="leading-relaxed">Clients</p>
@@ -499,15 +325,17 @@
                     </div>
                     <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <i class="fab fa-internet-explorer fa-4x" style="color: blue;"></i>
+                            <i class="fa fa-shopping-bag fa-4x" aria-hidden="true" style="color:darkblue"></i>
+
                             <br><br>
                             <h2 class="title-font font-medium text-3xl text-gray-900">4+</h2>
-                            <p class="leading-relaxed">Products and Services</p>
+                            
+                            <p class="leading-relaxed">Products</p>
                         </div>
                     </div>
                     <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <i class="far fa-building fa-4x" style="color: blue;"></i>
+                            <i class="far fa-building fa-4x" style="color: darkblue;"></i>
                             <br><br>
                             <h2 class="title-font font-medium text-3xl text-gray-900">2+</h2>
                             <p class="leading-relaxed">Offices</p>
@@ -517,49 +345,49 @@
             </div>
         </section>
         <hr>
-        <section class="text-gray-700 body-font">
+        <section class="text-gray-700 body-font" style="background-image: url('./media/appbg.png');">
             <br><br>
-            <h1 class="text-center  " style="font-size:60px; color: darkblue;">How we Served</h1>
+            <h1 class="text-center  " style="font-size:60px; color: white;">How we Served</h1>
 
-            <div class="container px-5 py-24 mx-auto rellax" data-rellax-speed="0">
+            <div class="container px-5 py-24 mx-auto rellax" data-rellax-speed="0"  >
                 <div class="flex flex-wrap -m-4">
-                    <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="lg:w-1/3 lg:mb-0 mb-6 p-4" data-aos="zoom-in">
                         <div class="h-full text-center">
                             <img alt="testimonial"
                                 class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="./media/sid.jpg" style="box-shadow: 5px 5px 15px 0px lightgray;">
-                            <p class="leading-relaxed text-black">AVIPL work is pretty good. They deliver product as per
+                                src="./media/sid.jpg" style="box-shadow: 5px 5px 15px 0px lightblue;">
+                            <p class="leading-relaxed text-white">AVIPL work is pretty good. They deliver product as per
                                 promise. Product Quality is great. Product delieverd on time.</p>
                             <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-black">Siddarth
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-white">Siddarth
                             </h2>
                         </div>
                     </div>
-                    <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="lg:w-1/3 lg:mb-0 mb-6 p-4" data-aos="zoom-in">
                         <div class="h-full text-center">
                             <img alt="testimonial"
                                 class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="./media/akshay.jpg" style="box-shadow: 5px 5px 15px 0px lightgray;">
-                            <p class="leading-relaxed text-black">I asked AVIPL to build a cross-platform app for me.
+                                src="./media/akshay.jpg" style="box-shadow: 5px 5px 15px 0px lightblue;">
+                            <p class="leading-relaxed text-white">I asked AVIPL to build a cross-platform app for me.
                                 They
                                 provided me an
                                 amazing solution at budget price. Product was amazing. I am using it daily to improve my
                                 business.
                             </p>
                             <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-black">Akshay
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-white">Akshay
                             </h2>
                         </div>
                     </div>
-                    <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="lg:w-1/3 lg:mb-0 p-4" data-aos="zoom-in">
                         <div class="h-full text-center">
                             <img alt="testimonial"
                                 class="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                                src="./media/rahul.jpg" style="box-shadow: 5px 5px 15px 0px lightgray;">
-                            <p class="leading-relaxed text-black">I own a gym and I asked AVIPL to build a website for
+                                src="./media/rahul.jpg" style="box-shadow: 5px 5px 15px 0px lightblue;">
+                            <p class="leading-relaxed text-white">I own a gym and I asked AVIPL to build a website for
                                 me and guess how was it? Obviously, I loved it. The UI was Great. Thankyou AVIPL.</p>
                             <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-black">Rahul
+                            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm text-white">Rahul
                             </h2>
                         </div>
                     </div>
@@ -572,12 +400,11 @@
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-20">
                     <h1 class="text-center " style="font-size: 60px; color: darkblue;">OUR TEAM</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-black">Our sole goal is to provide best
-                        service to our customers. So we hire really talented people.
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
                 </div>
-                <div class="flex flex-wrap -m-4">
+                <div class="flex flex-wrap -m-4" data-aos="zoom-out"> 
                     <div class="p-4 lg:w-1/2">
-                        <div
+                        <div 
                             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team"
                                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
@@ -665,7 +492,7 @@
                         </div>
                     </div>
                     <div class="p-4 lg:w-1/2">
-                        <div
+                        <div 
                             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team"
                                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
@@ -708,7 +535,7 @@
                         </div>
                     </div>
                     <div class="p-4 lg:w-1/2">
-                        <div
+                        <div 
                             class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <img alt="team"
                                 class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
@@ -862,7 +689,32 @@
 
         }
     </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
 
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+  </script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

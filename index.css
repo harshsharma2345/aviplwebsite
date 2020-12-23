@@ -31,6 +31,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
   }
+  
  
 .cooldiv{
     border-radius: 20px;
@@ -66,4 +67,11 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+}
+p{
+  font-size: 20px;
+}
+nav ul li{
+  font-size: 20px;
+  
 }
