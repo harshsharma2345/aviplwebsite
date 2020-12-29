@@ -1,6 +1,6 @@
 @media only screen and (max-width: 740px) {
       #contactbox{
-          word-wrap: break-word; /* property which automatically adds newline when text overflows/*       
+          word-wrap: break-word; /* property which automatically adds newline when text overflows */      
       }      
       .imgset{
           content: url('./media/1mob.png');
