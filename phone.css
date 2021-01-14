@@ -1,6 +1,9 @@
 @media only screen and (max-width: 740px) {
-      .navbar{
-           
+      #contactbox{
+          word-wrap: break-word; /* property which automatically adds newline when text overflows*/
+
+
+          
       }
       
       .imgset{
@@ -9,4 +12,156 @@
       .imgset1{
           content: url('./media/2mob.png');
       }
-}
+      .navbar-brand{
+          position: relative;
+          right: 25vw;
+    }
+    .navbar-toggler{
+        position: relative;
+        left: 20vw ;
+    }
+    .navbar-nav{
+        position: relative;
+        right: 60vw;
+    }
+    .phn{
+        display: none;
+
+    }
+    .nav-item{
+       padding: 0px;
+       font-size: 30px;
+    }
+    #websetnew{
+        position: relative;
+        top: 25vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #headingset{
+        font-size: 3rem;
+    }
+    #headingset p{
+        font-size: 1rem;
+    }
+    #webset{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+    }
+    #webset img{
+        height: 50%;
+    }
+    
+    #websetnew{
+        position: relative;
+        bottom: 20vh;
+    }
+    #mainset h1{
+        position: relative;
+        left: 5vw;
+        font-size: 3em;
+    }
+    #mainset p{
+        position: relative;
+        left: 4vw;
+        font-size: 5em;
+    }
+    #mainset button{
+        position: relative;
+        left: 4vw;
+        font-size: 1em;
+    }
+    .bgsetdm{
+        height: 100vh;
+        background-image: url('./media/digitalmarketingdata/dmmobbg.png');
+        background-repeat: no-repeat;
+      }
+    .sectionsetweb{
+        height: 332vh;
+    }
+    #aosm{
+
+        width: 100vw;
+        height: 90vh;
+      }
+      #aosm img{
+          image-rendering: crisp-edges;
+      }
+      .imgresponsive{
+          width: 55vh;
+      }
+      #plans h1{
+          margin-top: 40px ;
+      }
+      .smresponsive{
+          width: 45vh;
+      }
+    footer{
+        margin-top: 200px;
+    }
+    .sectionset{
+        height: 380vh;
+    }
+    .setsection{
+        position: relative;
+        bottom: 10vh;
+    }
+    #websetnew img{
+        height: 70%;
+        width: 70%;
+        position: relative;
+        left: 14vw;
+    }
+    #pricingset{
+        margin-top: 100px;
+    }
+    #pricingset h1{
+        margin-top: 30px;
+    }
+    
+    #whyus{
+        position: relative;
+        top: 676vh;
+        height: 130vh;
+    }
+    
+    body{
+        scroll-behavior: smooth;
+        
+    }
+    /* p{
+        text-align: justify;
+
+    } */
+    .imgapp1a{
+        display: block;
+        width: 68vh;
+    }
+    .imgapp1b{
+        display: none;
+      }
+
+    /* .cooldiv{ */
+        /* height: 600vh;
+    } */
+    #dmbutton{
+        display: none;
+    }
+     #team{
+        height: 432vh;
+        margin-top: 696vh;
+    }
+    #whyusdm{
+        height: 151vh;
+    }
+    .py-24{
+        padding-top:0rem;
+        padding-bottom:4rem;
+    }
+    body h1{
+        font-family:'Noto Sans TC', sans-serif;
+        font-size: 55px;
+    }
+} 

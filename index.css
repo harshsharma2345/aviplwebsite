@@ -71,7 +71,148 @@ body{
 p{
   font-size: 20px;
 }
+.center{
+display: flex;
+}
 nav ul li{
-  font-size: 20px;
   
+  font-size: 20px;
+  padding: 20px 0px;
+  
+}
+#quotebutton{
+  font-size: 35px; 
+  position: relative; 
+  top: 430px; 
+  left: 70px; 
+  border: 5px solid blue; 
+  border-radius: 20px; 
+  padding: 0px 10px;
+  background-color: blue ;
+  color: white;
+}
+#webset{
+  display: flex;
+  flex-direction: row;
+  height: 1300px;
+  justify-content: space-around;
+
+}
+.webelements img{
+  border: 0px solid white;
+  border-radius: 20px;
+  height: 400px;
+  width: 600px;
+  /* box-shadow: 1px 1px 1px 1px lightgray; */
+}
+span{
+  color: white;
+}
+#websetnew{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: space-around;
+
+}
+#websetnew img{
+  width: 400px;
+  height: 300px;
+}
+.webelements{
+    margin: auto;
+    text-align: center;
+}
+#websetnew a{
+  text-decoration: none;
+  
+}
+#imgapp1a{
+  display:none;
+}
+.imgapp1b{
+  display: block;
+}
+.imgapp1a{
+  display: none;
+}
+.bgset{
+  height: 100vh;
+  background-image: url('./media/appbgmob.png');
+  background-repeat: no-repeat;
+}
+#appflex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+position: relative;
+top: 50px;
+}
+.appcard{
+  height: 282px;
+  width:329px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgray;
+
+}
+.appflex{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+#divset{
+  height: 890vh;
+}
+#divsetdm{
+  height: 835vh;
+}
+#whyus{
+  background-image: url('./media/appbg.png');
+  height: 70vh;
+  position: relative;
+  bottom: 100px;
+  
+}
+#whyusdm{
+  background-image: url('./media/appbg.png');
+  height: 80vh;
+  
+  
+}
+.cooldiv{
+  height: 1000vh;
+}
+#overflow{
+  height:100vh;
+}
+#aosm{
+  /* background-image: url(./media/digitalmarketingdata/dmbg.png); */
+  width: 100vw;
+  height: 100vh;
+}
+#aosm img{
+  margin: auto;
+}
+#social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#social img{
+height: 300px;
+width: 300px;
+}
+.bgsetdm{
+  height: 100vh;
+  background-image: url('./media/digitalmarketingdata/aviplbg.png');
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+}
+#plans a{
+text-decoration: none;
+
 }
