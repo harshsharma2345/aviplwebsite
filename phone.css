@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1366px) {
+ 
+    .bgsetapp{
+        height: 80vh;
+        background-image: url('./media/websiteimages/appb1366px.png');
+        background-repeat: no-repeat;
+      }
+      
+
+}
 @media only screen and (max-width: 740px) {
       #contactbox{
           word-wrap: break-word; /* property which automatically adds newline when text overflows*/
@@ -37,6 +47,13 @@
         top: 25vh;
         display: flex;
         flex-direction: column;
+        margin-bottom: 245px;
+    }
+    #phonewebtext{
+        margin-left:14px;
+    }
+    #app{
+        margin-left: 20px;
     }
     
     #headingset{
@@ -106,7 +123,7 @@
     }
     .setsection{
         position: relative;
-        bottom: 10vh;
+        bottom: -9vh;
     }
     #websetnew img{
         height: 70%;
@@ -123,8 +140,8 @@
     
     #whyus{
         position: relative;
-        top: 676vh;
-        height: 130vh;
+        top: 442vh;
+        height: 100vh;
     }
     
     body{
@@ -137,7 +154,10 @@
     } */
     .imgapp1a{
         display: block;
-        width: 68vh;
+        width: 56vh;
+    }
+    #divset{
+        height: 1533vh;
     }
     .imgapp1b{
         display: none;
@@ -150,8 +170,8 @@
         display: none;
     }
      #team{
-        height: 432vh;
-        margin-top: 696vh;
+        height: 358vh;
+        margin-top: 357vh;
     }
     #whyusdm{
         height: 151vh;
@@ -164,4 +184,9 @@
         font-family:'Noto Sans TC', sans-serif;
         font-size: 55px;
     }
+    .bgsetapp{
+        height: 100vh;
+        background-image: url('./media/appbgmob.png');
+        background-repeat: no-repeat;
+      }
 } 

@@ -128,13 +128,13 @@ span{
   
 }
 #imgapp1a{
-  display:none;
+  display:block;
 }
 .imgapp1b{
-  display: block;
+  display: none;
 }
 .imgapp1a{
-  display: none;
+  display: block;
 }
 .bgset{
   height: 100vh;
@@ -163,10 +163,10 @@ top: 50px;
   flex-direction: row;
 }
 #divset{
-  height: 890vh;
+  height: 900vh;
 }
 #divsetdm{
-  height: 835vh;
+  height: 755vh;
 }
 #whyus{
   background-image: url('./media/appbg.png');
@@ -203,6 +203,11 @@ top: 50px;
 #social img{
 height: 300px;
 width: 300px;
+}
+.bgsetapp{
+  height: 100vh;
+  background-image: url('./media/websiteimages/appb.png');
+  background-repeat: no-repeat;
 }
 .bgsetdm{
   height: 100vh;
