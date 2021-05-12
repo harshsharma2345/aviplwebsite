@@ -5,7 +5,7 @@
 
 body{
   margin: auto;
-  overflow-y: visible;
+  overflow-y: none;
   height: 105vh;
 
 }
@@ -31,7 +31,7 @@ body{
     cursor: pointer;
     border-radius: 5px;
   }
-  
+
  
 .cooldiv{
     border-radius: 20px;
@@ -183,7 +183,10 @@ top: 50px;
 }
 .cooldiv{
   height: 800vh;
+}.cooldivhome{
+  height: 700vh;
 }
+
 #overflow{
   height:100vh;
 }
